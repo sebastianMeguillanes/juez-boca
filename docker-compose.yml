@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  boca-judge:
+    image: vitalyx/boca-judge
+    container_name: boca
+    ports:
+      - "80:80"
+    privileged: true
+    environment:
+      - USER=system
+      - PASS=boca
