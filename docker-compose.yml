@@ -5,7 +5,7 @@ services:
     image: vitalyx/boca-judge
     container_name: boca
     ports:
-      - "80:80"
+      - "8010:80"
     privileged: true
     environment:
       - USER=system
