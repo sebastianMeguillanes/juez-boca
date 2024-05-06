@@ -6,9 +6,8 @@ services:
     container_name: boca
     ports:
       - "8010:80"
+      - "9010:9001"
     privileged: true
     environment:
       - USER=system
       - PASS=boca
-    ports:
-    - "9010:9001"
